@@ -62,7 +62,7 @@ function configureChart() {
     options: {
       layout: {
         padding: {
-          left: 5
+          left: 10
         }
       },
       responsive: true,
