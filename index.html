@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <title>Weather Station</title>
+    <link rel="stylesheet" type="text/css" href="/weatherstation/style/title.css">
+    
+    <script src="/weatherstation/javascript/jquery.min.js"></script>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-app.js"></script>
+    
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+             https://firebase.google.com/docs/web/setup#available-libraries -->
+    
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyAd_ftBYk07l1avZ0jpK45dPDqL3hjqjgM",
+            authDomain: "td-weather-app.firebaseapp.com",
+            databaseURL: "https://td-weather-app.firebaseio.com",
+            projectId: "td-weather-app",
+            storageBucket: "td-weather-app.appspot.com",
+            messagingSenderId: "810041115309",
+            appId: "1:810041115309:web:1ab1e7419932ad02cdfc24"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+
+  <!-- Add Firebase products that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-database.js"></script>
+    <script src="/weatherstation/javascript/index.js"></script>
+</head>
+
+<body >
+    <div id="title-div">
+        <img src="/weatherstation/images/weather-icon.svg" id="app-icon"\>
+        <h1 id="app-title">Weather Station</h1>
+    </div>
+    <div class="graph">
+        <canvas id="TempChart-canvas"></canvas>
+    </div>
+    
+
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+#app-icon {
+    height: 100%;
+    width: auto;
+    float: left;
+}
+
+#app-title {
+    position: relative;
+    height: 10%;
+    width: auto;
+    float: left;
+}
+
+#title-div {
+    position: relative;
+    width: 100%;
+    height: 10%;
+}
+
+.graph {
+    height: 50%;
+    width: 50%;
+}
+
